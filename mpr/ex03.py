@@ -11,3 +11,4 @@ if __name__ == '__main__':
         .appName("Word Count") \
         .getOrCreate()
     sc = spark.sparkContext
+

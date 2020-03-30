@@ -1,4 +1,3 @@
-import random
 from pyspark.sql import SparkSession
 import os
 
@@ -12,4 +11,3 @@ spark = SparkSession.builder \
     .getOrCreate()
 sc = spark.sparkContext
 NUM_SAMPLES = 100000
-
